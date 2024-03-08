@@ -1,0 +1,116 @@
+Data: Data refers to raw, unorganized facts, symbols, or statistics that represent something in its most basic form, often lacking context or meaning.
+
+Information: Information is processed and organized data that carries meaning, context, and relevance, enabling understanding or decision-making.
+
+Database: A database is a structured collection of data organized for efficient storage, retrieval, and management. It typically uses a systematic approach to organize, manage, and access information.
+
+DBMS (Database Management System): A DBMS is software that facilitates the creation, maintenance, and manipulation of databases. It provides an interface for users and applications to interact with the database, ensuring data integrity and security.
+
+Processed Data: Processed data refers to information that has undergone some form of analysis, transformation, or organization, making it more meaningful and useful for decision-making.
+
+Data Management: Data management involves the processes, policies, and practices that ensure data is accurate, available, and secure throughout its lifecycle.
+
+Actions on the Database: Actions on the database include operations such as inserting, updating, deleting, and querying data, as well as defining and enforcing data integrity and security rules.
+
+Types of DBMS: The main types of DBMS include relational database management systems (RDBMS), hierarchical database management systems (HDBMS), network database management systems (NDBMS), and object-oriented database management systems (OODBMS).
+
+Data Model: A data model is a conceptual representation of the structure and relationships within a database. It defines how data is organized and accessed.
+
+Types of Data Models: Common types include the hierarchical data model, network data model, relational data model, and object-oriented data model.
+
+Advantages of Database Approach over File System Approach: The database approach offers advantages such as data integrity, data independence, efficient data retrieval, and better data security compared to the file system approach.
+
+Father of RDBMS: E. F. Codd is often referred to as the father of relational database management systems (RDBMS).
+
+Redundant Data: Redundant data refers to the unnecessary repetition of data within a database, leading to inefficiency and potential inconsistencies.
+
+Data Duplication: Data duplication occurs when the same data is stored in multiple locations within a database, increasing the risk of inconsistencies and complicating data management.
+
+Relational Algebra Operations: Common operations include SELECT, PROJECT, JOIN, UNION, INTERSECT, and DIFFERENCE.
+
+User Interfaces in Database Systems: Graphical user interfaces (GUIs), command-line interfaces (CLIs), and application programming interfaces (APIs) are common user interfaces.
+
+Languages in Database Systems: SQL (Structured Query Language), QBE (Query by Example), and Datalog are common languages used in database systems.
+
+Difference between SELECT in Relational Algebra and SQL: While both involve data retrieval, SQL SELECT is more expressive and allows for more complex queries compared to its relational algebra counterpart.
+
+Difference between JOIN and Cartesian Product: JOIN combines related rows from two or more tables based on a related column, whereas Cartesian Product combines all possible rows from two tables.
+
+Types of Join Operations: INNER JOIN, LEFT JOIN (or LEFT OUTER JOIN), RIGHT JOIN (or RIGHT OUTER JOIN), and FULL JOIN (or FULL OUTER JOIN).
+
+Difference between EQUIJOIN and NATURAL JOIN: EQUIJOIN involves a join based on a specified condition, while NATURAL JOIN automatically joins tables based on matching column names.
+
+Difference between OUTER JOIN and JOIN: JOIN typically refers to INNER JOIN, which returns only matched rows, while OUTER JOIN includes unmatched rows from one or both tables.
+
+Difference between OUTER UNION and UNION: UNION combines and returns distinct rows from two SELECT statements, while OUTER UNION combines all rows, including duplicates.
+
+Union Compatibility: Union compatibility refers to the requirement that the result sets in a UNION operation must have the same number of columns, with corresponding columns having compatible data types.
+
+Type Compatibility: Type compatibility ensures that the data types of corresponding columns in a join operation are compatible.
+
+Types of Relational Constraints: Primary key, foreign key, unique, check, and default constraints.
+
+Types of Structural Constraints: Entity integrity, referential integrity, and domain integrity.
+
+Cardinality: Cardinality defines the relationship between tables by specifying the number of related rows in one table that can be associated with a single row in another table. Cardinality can be one-to-one, one-to-many, or many-to-many.
+
+
+Cardinality Ratio: Cardinality ratio refers to the ratio of the number of rows in one table to the number of rows in another table in a database relationship. It helps express the nature and strength of connections between tables.
+
+Degree of a Relation: The degree of a relation in a database refers to the number of attributes or columns present in a table.
+
+Entity Integrity Constraint: Entity integrity constraint ensures that each row in a table is uniquely identified by a primary key, and no attribute in the primary key is allowed to have a NULL value.
+
+Referential Integrity Constraint: Referential integrity constraint ensures the consistency of relationships between tables by enforcing that values in a foreign key must correspond to existing values in the referenced primary key.
+
+NULL Constraint: A NULL constraint restricts the insertion of NULL values into a specific column, ensuring that the column cannot contain missing or undefined data.
+
+Unique Constraint: A unique constraint ensures that values in a specified column or group of columns are unique across all rows in a table.
+
+Check Constraint: A check constraint restricts the values that can be inserted or updated in a column based on a specified condition.
+
+Functional Dependency: In a relational database, a functional dependency exists when one set of attributes uniquely determines another set of attributes. It expresses a relationship between the columns in a table.
+
+Normalization: Normalization is the process of organizing data in a database to reduce redundancy and dependency. It involves decomposing tables into smaller, well-structured tables to improve data integrity and reduce anomalies.
+
+Normal Form: A normal form is a state of organization of data in a relational database, with each level addressing specific normalization criteria. The goal is to eliminate data redundancy and dependency issues.
+
+Types of Normal Forms: Common types include 1NF (First Normal Form), 2NF (Second Normal Form), 3NF (Third Normal Form), BCNF (Boyce-Codd Normal Form), 4NF (Fourth Normal Form), and 5NF (Fifth Normal Form).
+
+Difference between 3NF and BCNF: While both are forms of normalization, BCNF is a stricter condition that ensures a higher degree of normalization compared to 3NF. BCNF deals specifically with certain types of functional dependencies.
+
+JOIN Dependencies: JOIN dependencies are constraints that involve relationships between tables based on combinations of attributes, defining how tables should be joined.
+
+Inclusion Dependencies: Inclusion dependencies specify that the values of one set of attributes must also be the values of another set of attributes, often across different tables.
+
+Template Dependencies: Template dependencies use templates or patterns to express relationships between attributes in different tables, providing a flexible way to define constraints.
+
+Multivalued Dependencies: Multivalued dependencies express relationships between attributes when one set of attributes uniquely determines another set of attributes, and the values are multivalued.
+
+Project Join Normal Form (PJNF): PJNF is a normal form that extends the concept of join dependencies to ensure that certain types of join operations do not introduce redundancy.
+
+Domain Key Normal Form (DKNF): DKNF is a normal form that ensures that all constraints on a relation can be enforced solely by the properties of the individual domains.
+
+Informal Guidelines for Database Design: Guidelines include avoiding data redundancy, ensuring data integrity, normalizing tables, defining appropriate keys, and considering performance and scalability.
+
+Super Key: A super key is a set of one or more attributes that, taken collectively, uniquely identifies a row in a table.
+
+Primary Key: A primary key is a specific super key chosen to uniquely identify each row in a table, and it cannot contain NULL values.
+
+Foreign Key: A foreign key is an attribute or a set of attributes in a table that refers to the primary key in another table, establishing a relationship between the two tables.
+
+Unique Key: A unique key is a constraint that ensures the values in a specified column or group of columns are unique across all rows in a table, similar to a primary key.
+
+Prime Attribute: A prime attribute is an attribute that is part of a super key but not a part of any candidate key.
+
+Trivial Functional Dependency: A functional dependency is trivial if the dependent attribute is a subset of the determinant.
+
+Fully FD (Functional Dependency): A functional dependency is said to be fully functional if it cannot be decomposed into smaller functional dependencies.
+
+
+
+
+
+
+
+
